@@ -1,3 +1,5 @@
+#This script will create EC2 Instance
+
 import boto.ec2
 import argparse
 from pprint import pprint

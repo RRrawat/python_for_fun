@@ -5,7 +5,7 @@ import argparse
 from pprint import pprint
 from time import sleep
 
-DEFAULT_REGION = "eu-west-1" # Ireland
+DEFAULT_REGION = "southeast-1" #Singapore
 DEFAULT_AMI_IMAGE_ID = "ami-5f2f5528" # CoreOS-stable-681.2.0-hvm
 DEFAULT_INSTANCE_TYPE= "t2.micro"
 DEFAULT_DISK_SIZE_GB= 30

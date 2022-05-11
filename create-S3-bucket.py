@@ -1,8 +1,8 @@
 import boto3
 from botocore.client import Config
 
-ACCESS_KEY_ID = ''
-ACCESS_SECRET_KEY = ''
+ACCESS_KEY_ID = 'example-ACCESS_KEY_ID'
+ACCESS_SECRET_KEY = 'example-ACCESS_SECRET_KEY'
 BUCKET_NAME = 'img-bucket-00123'
 
 data = open('bitmoji.png', 'rb')

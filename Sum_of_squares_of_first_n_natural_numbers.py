@@ -60,4 +60,4 @@ def squaresum(n):
 # main()
 n = 4
 print(squaresum(n));
-  
+  #Output=30

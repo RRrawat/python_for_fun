@@ -42,3 +42,5 @@ def squaresum(n) :
 # Driven Program
 n = 4
 print(squaresum(n))
+#Output=30
+  

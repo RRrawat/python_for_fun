@@ -26,6 +26,8 @@ def squaresum(n) :
 n = 4
 print(squaresum(n))
   #Output=30
+  
+  
 /****************************************************************************************************************************************/
 
 #Second method
@@ -38,6 +40,7 @@ print(squaresum(n))
 # Return the sum of 
 # square of first n
 # natural numbers
+
 def squaresum(n) :
     return (n * (n + 1) * (2 * n + 1)) // 6
   

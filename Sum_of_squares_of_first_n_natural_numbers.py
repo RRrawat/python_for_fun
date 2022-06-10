@@ -51,6 +51,7 @@ print(squaresum(n))
 #Output=30  
 
 /*****************************************************************************************************************************/
+
 #Third method
 
 # Python Program to find sum of square of first

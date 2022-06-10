@@ -9,6 +9,7 @@
 # Return the sum of
 # square of first n
 # natural numbers
+
 def squaresum(n) :
   
     # Iterate i from 1 

@@ -10,3 +10,6 @@ for i in range(n):
     for k in range(2*i+1):
         print("*", end=" ")
     print()
+    
+ #Another Approach: 
+#Using List in Python 3, this could be done in a simpler way

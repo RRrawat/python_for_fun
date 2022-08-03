@@ -18,7 +18,7 @@ Update with your AWS profile / credentials.  Modify the region, VPC CIDR and VPC
 parameters.
 
 ```
-main(profile = '<YOUR_PROFILE>', region = 'us-east-2', cidr = '10.64.0.0/22', name = 'test-dev')
+main(profile = '<YOUR_PROFILE>', region = 'us-east-2', cidr = <YOUR_VPC_CIDR>, name = <NAME_OF_VPC>)
 ```
 
 **Usage:**

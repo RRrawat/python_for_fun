@@ -34,3 +34,15 @@ img.paste(icon, (w, h), None)
 img = img.convert('RGB')
 img.save(name)
 return img
+
+def info(name, body):
+  getQRcode(body, name)
+oriImg = Image.open("backgroud.jpg")
+oriImg2 = Image.open(name)
+oriImg2 = oriImg2.resize((490, 490))
+oriImg.paste(oriImg2, (80, 80))
+draw = ImageDraw.Draw(oriImg)
+oriImg = oriImg.convert('RGB')
+oriImg.save(name)
+if __name__ == '__main__':
+  info("test.png", "https://www.xyz.com")

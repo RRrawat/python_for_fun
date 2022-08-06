@@ -6,6 +6,8 @@ from PIL
 import ImageDraw
 from PIL
 import ImageFont
+
+
 def getQRcode(strs, name):
   qr = qrcode.QRCode(
     version = 1,

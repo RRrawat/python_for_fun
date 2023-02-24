@@ -48,3 +48,5 @@ oriImg = oriImg.convert('RGB')
 oriImg.save(name)
 if __name__ == '__main__':
   info("test.png", "https://www.xyz.com")
+  
+  

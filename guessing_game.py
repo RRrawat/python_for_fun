@@ -1,6 +1,6 @@
+#import module
 import random
 import math
-
 
 # Taking Inputs
 lower = int(input("Enter Lower bound:- "))
